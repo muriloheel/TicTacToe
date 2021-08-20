@@ -1,0 +1,41 @@
+@media(min-width: 750px){
+    .board{
+        display: grid;
+        grid-template-columns: repeat(4,125px);
+        grid-template-rows: repeat(4,180px);
+        row-gap: 20px;
+        column-gap: 20px;
+        width: 560px;
+        height: 800px;
+        background-color: black;
+    }
+}
+@media(max-width: 749px){
+    .board{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 10px;
+        width: 400px;
+        height: 570px;
+    background-color: black
+     
+    }
+}
+
+body{
+    display: grid;
+    place-content: center;
+    background-image: url('background1.jfif');
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+span{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
