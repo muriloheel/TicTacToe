@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to right, #0ff, blue);
+}
+.div-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-flex-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-flex-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    /*row-gap: 20px;
+    column-gap: 20px;*/
+    align-items: center;
+    box-shadow: -20px 20px 5px #444444 ;
+
+}
+#h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 60px;
+    box-shadow: -5px 5px 5px #f00 ;
+}
+.restart{
+    width: 200px;
+    height: 80px;
+    background: aqua;
+    margin: 10px;
+    border: 2px groove white;
+    font-family: Ink Free;
+    font-size: 40px;
+    box-shadow: 0px 10px 5px #444444 ;
+}
+.restart:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
